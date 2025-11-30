@@ -39,17 +39,17 @@ _extensions/
 *.knit.md
 
 # LaTeX/PDF compilation temporary files
-**/*.fff** # **Temporary LaTeX figure/float file (the one you asked about)**
-**/*.aux** # LaTeX auxiliary file
-**/*.bbl** # BibTeX generated bibliography file
-**/*.blg** # BibTeX log file
-**/*.log** # LaTeX log file
-**/*.nav** # LaTeX navigation file
-**/*.out** # LaTeX output file
-**/*.snm** # LaTeX file for Beamer (presentations)
-**/*.toc** # LaTeX table of contents file
-**/*.synctex.gz** # SyncTeX file for editor synchronization
-**/*.spl # Spell-check file
+*.fff** # **Temporary LaTeX figure/float file (the one you asked about)**
+*.aux** # LaTeX auxiliary file
+*.bbl** # BibTeX generated bibliography file
+*.blg** # BibTeX log file
+*.log** # LaTeX log file
+*.nav** # LaTeX navigation file
+*.out** # LaTeX output file
+*.snm** # LaTeX file for Beamer (presentations)
+*.toc** # LaTeX table of contents file
+*.synctex.gz** # SyncTeX file for editor synchronization
+*.spl # Spell-check file
 
 # Package build and testing artifacts
 *.tar.gz # R package tarball
@@ -88,3 +88,4 @@ elsarticle.cls
 elsarticle-harv.bst
 elsarticle-num.bst
 elsevier-vancouver.csl
+/.quarto/
