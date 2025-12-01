@@ -18,34 +18,34 @@ author:
     note: "Student ID: BTBTWE24036"
 
   - name: Nguyen Hoang Thanh Ngan
-    email: ~
+    email: "BTBTIU24067@student.hcmiu.edu.vn"
     affiliations:
         - id: international-uni
-    note: "Student ID: BTBTIU24067"
+    note: ~
 
   - name: Pham Gia Han
-    email: ~
+    email: "BTBTWE24003@student.hcmiu.edu.vn"
     affiliations:
         - id: international-uni
-    note: "Student ID: BTBTWE24003"
+    note: ~
 
   - name: Pham Ngo Phuong Thao
-    email: ~
+    email: "BTBTIU24099@student.hcmiu.edu.vn"
     affiliations:
         - id: international-uni
-    note: "Student ID: BTBTIU24099"
+    note: ~
     
   - name: Nguyen Hoang Tuong Vy
-    email: ~
+    email: "BTBTIU24133@student.hcmiu.edu.vn"
     affiliations:
         - id: international-uni
-    note: "Student ID: BTBTIU24133"
+    note: ~
 
   - name: Nguyen Le Ngoc Vy
-    email: ~
+    email: "BTBTIU24131@student.hcmiu.edu.vn"
     affiliations:
         - id: international-uni
-    note: "Student ID: BTBTIU24131"
+    note: ~
 
 abstract: |
   This is the abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue turpis, dictum non malesuada a, volutpat eget velit. Nam placerat turpis purus, eu tristique ex tincidunt et. Mauris sed augue eget turpis ultrices tincidunt. Sed et mi in leo porta egestas. Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit.
@@ -63,7 +63,8 @@ format:
       model: 5p # Don't set a model with preprint
       # layout: twocolumn
       # cite-style: authoryear
-      cite-style: number
+      # cite-style: number
+      cite-style: super
       cite-method: citeproc
       csl: elsevier-vancouver.csl
 ---
@@ -122,11 +123,26 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 ## Application in Therapy
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+PGx testing directly translates genetic data into evidence-based clinical decisions, which fundamentally alters the traditional trial-and-error approach to antidepressant therapy. By utilizing genetic data, clinicians can optimize treatment efficacy and safety through informed drug selection and precise dosage adjustments.
+
+### Guiding Drug Selection
+
+The primary application of PGx in antidepressant therapy is the initial selection of a medication that matches the patient's metabolic profile. This process aims to maximize efficacy while minimizing the risk of adverse drug reactions (ADRs). The Clinical Pharmacogenetics Implementation Consortium (CPIC) and the Dutch Pharmacogenetics Working Group (DPWG) provide guidelines for specific gene-drug pairs, particularly involving CYP2D6 and CYP2C19 [@bousmanClinicalPharmacogeneticsImplementation2023; @bousmanReviewConsensusPharmacogenomic2021].
+For example, CYP2D6 Ultrarapid Metabolizers (UMs) possess multiple active copies of the gene, resulting in significantly elevated enzyme activity. If these patients are prescribed Tricyclic Antidepressants (TCAs) such as amitriptyline or nortriptyline, the drug is metabolized and cleared from the body too quickly to achieve therapeutic blood concentrations [@deanAmitriptylineTherapyCYP2D62012; @AmitriptylineResponseNIH]. As such, standard treatments often fail to produce a clinical response. In such cases, guidelines recommend selecting an alternative antidepressant that is not primarily metabolized by CYP2D6 to ensure the patient receives a therapeutic benefit. 
 
 ## Clinical Challenges and Future Directions
 
 Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Nullam dictum felis eu pede mollis pretium.
+
+# Abbreviations
+
+| Abbreviation | Full Term |
+|--|---|
+| PGx | Pharmacogenomic |
+| DSA | Dolor sit amet |
+| TIU | Tempor incididunt ut |
+| MV | Minim veniam |
+| DIR | Dolor in reprehenderit |
 
 # Declaration of Competing Interest
 The authors declare no competing interests.
