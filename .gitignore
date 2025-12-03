@@ -89,3 +89,4 @@ elsevier-vancouver.csl
 # Preamble File
 !preamble.tex
 /.quarto/
+.Rproj.user
