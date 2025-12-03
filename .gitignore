@@ -85,3 +85,6 @@ elsarticle.cls
 elsarticle-harv.bst
 elsarticle-num.bst
 elsevier-vancouver.csl
+
+/.quarto/
+.Rproj.user

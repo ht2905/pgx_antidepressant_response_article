@@ -56,17 +56,19 @@ date: last-modified
 bibliography: bibliography.bib
 format:
   elsevier-pdf:
+    includes:
+      in_header: preamble.tex
     keep-tex: true
+    # cite-method: citeproc # Default is `natbib`
     journal:
       name: ~
       formatting: preprint
-      model: 5p # Don't set a model with preprint
+      model: 5p # Don't set a model with preprint. Specify one or two columns only when using 3p.
       # layout: twocolumn
       # cite-style: authoryear
-      # cite-style: number
-      cite-style: super
-      cite-method: citeproc
-      csl: elsevier-vancouver.csl
+      cite-style: number
+      # cite-style: super # Not supported by `citeproc`
+    # csl: elsevier-vancouver.csl
 ---
 
 ```{=html}
@@ -127,8 +129,40 @@ PGx testing directly translates genetic data into evidence-based clinical decisi
 
 ### Guiding Drug Selection
 
-The primary application of PGx in antidepressant therapy is the initial selection of a medication that matches the patient's metabolic profile. This process aims to maximize efficacy while minimizing the risk of adverse drug reactions (ADRs). The Clinical Pharmacogenetics Implementation Consortium (CPIC) and the Dutch Pharmacogenetics Working Group (DPWG) provide guidelines for specific gene-drug pairs, particularly involving CYP2D6 and CYP2C19 [@bousmanClinicalPharmacogeneticsImplementation2023; @bousmanReviewConsensusPharmacogenomic2021].
-For example, CYP2D6 Ultrarapid Metabolizers (UMs) possess multiple active copies of the gene, resulting in significantly elevated enzyme activity. If these patients are prescribed Tricyclic Antidepressants (TCAs) such as amitriptyline or nortriptyline, the drug is metabolized and cleared from the body too quickly to achieve therapeutic blood concentrations [@deanAmitriptylineTherapyCYP2D62012; @AmitriptylineResponseNIH]. As such, standard treatments often fail to produce a clinical response. In such cases, guidelines recommend selecting an alternative antidepressant that is not primarily metabolized by CYP2D6 to ensure the patient receives a therapeutic benefit. 
+The primary application of PGx in antidepressant therapy is the initial selection of a medication that matches the patient's metabolic profile. This process aims to maximize efficacy while minimizing the risk of adverse drug reactions (ADRs). The Clinical Pharmacogenetics Implementation Consortium (CPIC) and the Dutch Pharmacogenetics Working Group (DPWG) provide guidelines for specific gene-drug pairs, particularly involving *CYP2D6* and *CYP2C19* [@bousmanClinicalPharmacogeneticsImplementation2023; @bousmanReviewConsensusPharmacogenomic2021].
+
+For example, *CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies of the gene, resulting in significantly elevated enzyme activity. Table \ref{tab:tbl-cyp2d6-phenotype} and Table \ref{tab:tbl-cyp2c19-phenotype} show the assignment of likely phenotypes based on the diplotypes of the *CYP2d6* and *CYP2C19* genes, respectively. If these patients are prescribed Tricyclic Antidepressants (TCAs) such as amitriptyline or nortriptyline, the drug is metabolized and cleared from the body too quickly to achieve therapeutic blood concentrations [@AmitriptylineResponseNIH]. As such, standard treatments often have increased risk of failure. In those cases, guidelines recommend selecting an alternative antidepressant that is not primarily metabolized by *CYP2D6* to ensure the patient receives a therapeutic benefit [@deanAmitriptylineTherapyCYP2D62012].
+
+\begin{table*}[!t]
+  \begin{center}
+    \caption{Assignment of predicted \textit{CYP2D6} phenotypes based on diplotypes. \cite{bousmanClinicalPharmacogeneticsImplementation2023}}
+    \label{tab:tbl-cyp2d6-phenotype}
+    \begin{tabular}{p{3.3cm}|p{2.3cm}|p{4.3cm}|p{5.3cm}}
+      \textbf{Phenotype} & \textbf{Activity score range} & \textbf{Genotypes} & \textbf{Examples of \textit{CYP2D6} diplotypes} \\
+      \hline
+      \textit{CYP2D6} Ultrarapid metabolizer ($\approx1–20\%$ of patients) 
+      & $>2.25$ 
+      & An individual carrying duplications of functional alleles 
+      & $(*1/*1) \times N$, $(*1/*2) \times N$, $(*2/*2) \times N$ \\
+      Normal metabolizer ($\approx72–88\%$ of patients) 
+      & $1.25\le x \le 2.25$
+      & An individual carrying two normal function alleles or two decreased function alleles or one normal and no function allele or one normal function and decreased function allele or combinations of duplicated alleles that result in an activity score of $1.0–2.0$. 
+      & $*1/*1$, $*1/*2$, $*2/*2$, $*1/*9$, $*1/*41$, $*41/*41$, $*1/*5$, $*1/*4$ \\
+      Intermediate metabolizer ($\approx1–13\%$ of patients) 
+      & $0.5$
+      & An individual carrying one decreased function and one no function allele
+      & $*4/*41$, $*5/*9$, $*4/*10$ \\
+      Poor metabolizer ($\approx1–10\%$ of patients)
+      & $0$
+      & An individual carrying only no function alleles
+      & $*4/*4$, $(*4/*4)\times N$, $*3/*4$, $*5/*5$, $*5/*6$ \\
+    \end{tabular}
+  \end{center}
+\end{table*}
+
+### Dosage Adjustment
+
+### Treatment of Resistant Cases
 
 ## Clinical Challenges and Future Directions
 
@@ -148,4 +182,8 @@ Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero.
 The authors declare no competing interests.
 
 # Data/Code Availability
-The Quarto source code for this paper is available at https://github.com/ht2905/pgx_antidepressant_response_article.
+```{=tex}
+The Quarto source code for this paper is available at \url{https://github.com/ht2905/pgx_antidepressant_response_article}.
+```
+
+# References
