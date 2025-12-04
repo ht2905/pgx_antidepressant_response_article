@@ -130,7 +130,7 @@ PGx testing directly translates genetic data into evidence-based clinical decisi
 
 ### Guiding Drug Selection
 
-The primary application of PGx in antidepressant therapy is the initial selection of a medication that matches the patient's metabolic profile. This process aims to maximize efficacy while alleviating the risk of adverse drug reactions (ADRs). The Clinical Pharmacogenetics Implementation Consortium (CPIC) and the Dutch Pharmacogenetics Working Group (DPWG) provide guidelines for specific gene-drug pairs, particularly involving *CYP2D6* and *CYP2C19* [@bousmanClinicalPharmacogeneticsImplementation2023; @bousmanReviewConsensusPharmacogenomic2021].
+The primary application of PGx in antidepressant therapy is the initial selection of a medication that matches the patient's metabolic profile. This process aims to maximize efficacy while alleviating the risk of adverse drug reactions (ADRs). The Clinical Pharmacogenetics Implementation Consortium (CPIC) and the Dutch Pharmacogenetics Working Group (DPWG) provide guidelines for specific gene-drug pairs, particularly involving *CYP2D6* and *CYP2C19* [@bousmanClinicalPharmacogeneticsImplementation2023; @bousmanReviewConsensusPharmacogenomic2021; @brouwerDutchPharmacogeneticsWorking2022].
 
 To start, *CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies of the gene, resulting in significantly elevated enzyme activity. Table \ref{tab:tbl-cyp2d6-phenotype} and Table \ref{tab:tbl-cyp2c19-phenotype} show the assignment of likely phenotypes based on the diplotypes of the *CYP2D6* and *CYP2C19* genes, respectively. If these patients are prescribed Tricyclic Antidepressants (TCAs) like amitriptyline or nortriptyline, the drug would be metabolized and cleared from the body too quickly to achieve therapeutic blood concentrations [@AmitriptylineResponseNIH]. Thus, standard treatments often have increased risk of failure. In such cases, guidelines recommend selecting an alternative antidepressant that is not primarily metabolized by *CYP2D6* to ensure the patient receives a therapeutic benefit [@deanAmitriptylineTherapyCYP2D62012]. Similarly, for *CYP2C19* UMs, guidelines suggest avoiding citalopram or escitalopram due to the high likelihood of subtherapeutic drug levels and treatment failure [@brouwerDutchPharmacogeneticsWorking2022].
 
@@ -138,7 +138,7 @@ To start, *CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies 
   \begin{center}
     \caption{Assignment of predicted \textit{CYP2D6} phenotypes based on diplotypes}
     \label{tab:tbl-cyp2d6-phenotype}
-    \begin{tabular}{p{3.8cm}|p{2.0cm}|p{5.8cm}|p{4.0cm}}
+    \begin{tabular}{p{4.1cm}|p{2.0cm}|p{6.5cm}|p{4.1cm}}
       \textbf{Phenotype} & \textbf{Activity score range} & \textbf{Genotypes} & \textbf{Examples of \textit{CYP2D6} diplotypes} \\
       \hline
       \textit{CYP2D6} Ultrarapid metabolizer ($\approx1–20\%$ of patients) 
@@ -147,7 +147,7 @@ To start, *CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies 
       & $(*1/*1) \times N$, $(*1/*2) \times N$, $(*2/*2) \times N$ \\
       \textit{CYP2D6} Normal metabolizer ($\approx72–88\%$ of patients) 
       & $1.25\le x \le 2.25$
-      & An individual carrying two normal function alleles or two decreased function alleles or one normal and no function allele or one normal function and decreased function allele or combinations of duplicated alleles that result in an activity score of $1.0–2.0$. 
+      & An individual carrying allele combinations that result in an activity score of $1.0–2.0$
       & $*1/*1$, $*1/*2$, $*2/*2$, $*1/*9$, $*1/*41$, $*41/*41$, $*1/*5$, $*1/*4$ \\
       \textit{CYP2D6} Intermediate metabolizer ($\approx1–13\%$ of patients) 
       & $0<x<1.25$
@@ -164,7 +164,7 @@ To start, *CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies 
     \end{tabular}
     \vspace{1ex} % optional, a bit of vertical spacing
    {\footnotesize % or small font, depending on journal style
-    \itshape \newline Note. This table was adapted by combining data from the CPIC Serotonin Reuptake Inhibitor Antidepressants Guideline (2023) \cite{bousmanClinicalPharmacogeneticsImplementation2023} and the CPIC Tricyclic Antidepressants Guideline (2016) \cite{hicksClinicalPharmacogeneticsImplementation2017}.}
+    \itshape \newline Note. Phenotype assignments were compiled by synthesizing criteria from the DPWG guideline on CYP2C19 and CYP2D6 interactions with SSRIs \cite{brouwerDutchPharmacogeneticsWorking2022}, the CPIC Guideline for Selective Serotonin Reuptake Inhibitors (2023) \cite{bousmanClinicalPharmacogeneticsImplementation2023}, and the CPIC Guideline for Tricyclic Antidepressants (2016) \cite{hicksClinicalPharmacogeneticsImplementation2017}.}
   \end{center}
 \end{table*}
 
@@ -173,7 +173,7 @@ To start, *CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies 
   \begin{center}
     \caption{Assignment of predicted \textit{CYP2C19} phenotypes based on diplotypes}
     \label{tab:tbl-cyp2c19-phenotype}
-    \begin{tabular}{p{3.8cm}|p{2.0cm}|p{5.8cm}|p{4.0cm}}
+    \begin{tabular}{p{4.1cm}|p{2.0cm}|p{6.5cm}|p{4.1cm}}
       \textbf{Phenotype} & \textbf{Activity score range} & \textbf{Genotypes} & \textbf{Examples of \textit{CYP2C19} diplotypes} \\
       \hline
       \textit{CYP2C19} Ultrarapid metabolizer
@@ -211,7 +211,7 @@ To start, *CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies 
     \end{tabular}
     \vspace{1ex} % optional, a bit of vertical spacing
    {\footnotesize % or small font, depending on journal style
-    \itshape \newline Note. This table was adapted by combining data from the CPIC Serotonin Reuptake Inhibitor Antidepressants Guideline (2023) \cite{bousmanClinicalPharmacogeneticsImplementation2023} and the CPIC Tricyclic Antidepressants Guideline (2016) \cite{hicksClinicalPharmacogeneticsImplementation2017}.}
+    \itshape \newline Note. Phenotype assignments were compiled by synthesizing criteria from the DPWG guideline on CYP2C19 and CYP2D6 interactions with SSRIs \cite{brouwerDutchPharmacogeneticsWorking2022}, the CPIC Guideline for Selective Serotonin Reuptake Inhibitors (2023) \cite{bousmanClinicalPharmacogeneticsImplementation2023}, and the CPIC Guideline for Tricyclic Antidepressants (2016) \cite{hicksClinicalPharmacogeneticsImplementation2017}.}
   \end{center}
 \end{table*}
 
@@ -249,6 +249,6 @@ The authors declare no competing interests.
 
 # Data/Code Availability
 
-The Quarto source code for this paper is available at \url{https://github.com/ht2905/pgx_antidepressant_response_article}.
+The Quarto source code for this paper is available at \url{https://github.com/ht2905/pgx-antidepressant-response-article}.
 
 # References
