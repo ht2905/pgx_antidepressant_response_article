@@ -251,7 +251,9 @@ Future directions in PGx for antidepressant therapy aim to resolve key clinical 
 
 # Abbreviations
 
-\begin{tabular}{l|l}
+\begin{table}[tbh]
+  \centering
+  \begin{tabular}{ p{2.2cm} | p{5.6cm} }
   \textbf{Abbreviation} & \textbf{Full Term} \\
     \hline
     ADR & Adverse Drug Reaction \\
@@ -268,7 +270,10 @@ Future directions in PGx for antidepressant therapy aim to resolve key clinical 
     TCA & Tricyclic Antidepressant \\
     TRD & Treatment-Resistant Depression \\
     UM & Ultrarapid Metabolizer \\
-\end{tabular}
+  \end{tabular}
+  % \caption{Abbreviations}
+  % \label{tab:abbrev}
+\end{table}
 
 # Declaration of Competing Interest
 
@@ -277,5 +282,6 @@ The authors declare no competing interests.
 # Data/Code Availability
 
 The Quarto project underlying this paper—including the manuscript, figures, and bibliography—is available at \url{https://github.com/ht2905/pgx-antidepressant-response-article}.
+
 
 # References
