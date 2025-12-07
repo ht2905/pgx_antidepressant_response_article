@@ -99,7 +99,7 @@ library(ragg)
 
 ## Context and Background
 
-Genetics plays a foundational role in modern medicine by explaining why individuals differ in their susceptibility to disease and in their responses to therapeutic interventions. These genetic differences, combined with environmental and lifestyle factors, contribute to the wide variation observed in drug effectiveness and safety across patient populations. Precision medicine is an emerging approach that aims to optimize patient care by accounting for individual variability rather than applying uniform, standardized treatment strategies. It incorporates multiple sources of variation including genetic makeup, environmental exposures, and lifestyle components to support more accurate diagnoses and more precisely targeted therapies. By moving beyond the traditional one-size-fits-all model, precision medicine seeks to improve overall treatment outcomes and reduce the likelihood of therapeutic failure [@konigWhatPrecisionMedicine2017]. 
+Genetics plays a foundational role in modern medicine by explaining why individuals differ in their susceptibility to disease and in their responses to therapeutic interventions. These genetic differences, combined with environmental and lifestyle factors, contribute to the wide variation observed in drug effectiveness and safety across patient populations. Precision medicine is an emerging approach that aims to optimize patient care by accounting for individual variability rather than applying uniform, standardized treatment strategies. It incorporates multiple sources of variation including genetic makeup, environmental exposures, and lifestyle components to support more accurate diagnoses and more precisely targeted therapies. By moving beyond the traditional one-size-fits-all model, precision medicine seeks to improve overall treatment outcomes and reduce the likelihood of therapeutic failure [@konigWhatPrecisionMedicine2017].
 
 Pharmacogenetics represents a core branch of precision medicine focused on genome-level investigation to identify genetic variants that influence drug response. These variations can affect critical pharmacological processes such as drug absorption, distribution, metabolism, target interaction, and involvement in disease pathways. By making clear how genetic differences shape individual drug responses, pharmacogenetics provides the scientific basis for tailoring medication selection and dosing to each patient [@ingelman-sundbergPharmacogeneticsOpportunitySafer2001].
 
@@ -107,21 +107,21 @@ Treating Major Depressive Disorder (MDD) remains challenging because initial ant
 
 ## Scope and Thesis
 
-This review examines the clinical role of pharmacogenomics (PGx) in guiding antidepressant prescribing, with a particular emphasis on its potential to improve treatment selection and patient outcomes. The central argument of this paper is that pharmacogenomic testing of key Cytochrome P450 (CYP) enzymes, particularly *CYP2D6* and *CYP2C19*, can significantly enhance the prediction of drug response and optimize therapeutic outcomes for individuals undergoing antidepressant therapy.
+This review examines the clinical role of pharmacogenomics (PGx) in guiding antidepressant prescribing, with a particular emphasis on its potential to improve treatment selection and patient outcomes. The central argument of this paper is that pharmacogenomic testing of key Cytochrome P450 (CYP) enzymes, particularly CYP2D6 and CYP2C19, can significantly enhance the prediction of drug response and optimize therapeutic outcomes for individuals undergoing antidepressant therapy.
 
 # Materials & Methods
 
 ## Literature Search Strategy
 
-To gather the materials for this review, our team conducted a literature search across several major scientific databases, including PubMed, Google Scholar, and Web of Science. We used a range of search terms related to the topic, such as “pharmacogenomics and antidepressants,” “*CYP2D6*/*CYP2C19* polymorphisms”, “*CYP2D6* and *CYP2C19* dose adjustments”, “major depressive disorder (MDD)” “drug metabolism genetics,” and “precision medicine.”, “CPIC guidelines”, “DPWG guidelines”, “tricyclic antidepressants”, “SSRIs”. These articles were selected based on the following criteria: peer-reviewed publications, clinical guidelines, and review papers published within roughly the last 2 decades, with a clear focus on pharmacogenomics and antidepressant therapy. Sources that were not peer-reviewed such as conference abstracts, opinion pieces, wikipedia or studies unrelated to antidepressant medications were excluded to ensure the review was based on reliable and clinically relevant evidence.
+To gather the materials for this review, our team conducted a literature search across several major scientific databases, including PubMed, Google Scholar, and Web of Science. We used a range of search terms related to the topic, such as “pharmacogenomics and antidepressants,” “*CYP2D6*/*CYP2C19* polymorphisms,” “*CYP2D6* and *CYP2C19* dose adjustments,” “major depressive disorder (MDD),” “drug metabolism genetics,” and “precision medicine,” “CPIC guidelines,” “DPWG guidelines,” “tricyclic antidepressants,” and “SSRIs.” These articles were selected based on the following criteria: peer-reviewed publications, clinical guidelines, and review papers published between 2000 and 2025, with a clear focus on pharmacogenomics and antidepressant therapy. Sources that were not peer-reviewed such as conference abstracts, opinion pieces, Wikipedia, or studies unrelated to antidepressant medications were excluded to ensure the review was based on reliable and clinically relevant evidence.
 
 ## Data Extraction and Synthesis
 
-Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit. Nullam accumsan ipsum sit amet dui. Integer id odio.
+We extracted and synthesized data from the selected sources, focusing on key pharmacogenomic elements such as the specific genes involved (e.g., *CYP2D6*, *CYP2C19*), the corresponding antidepressant drug classes (e.g., SSRIs, TCAs), and the predicted metabolic phenotypes including ultrarapid, normal, intermediate, and poor metabolizers. Clinical recommendations from CPIC and the DPWG were also collected, along with comparative findings evaluating treatment-as-usual (TAU) versus PGx-guided antidepressant therapy in patients with MDD.
+
+After extraction, the information was systematically synthesized and organized into three central thematic categories: Genetics in Etiology and Diagnosis, Applications in Therapy, and Clinical Challenges and Future Directions. This structure provides a coherent framework that guides the development of the Discussion section and enables clear integration of the evidence across studies.
 
 # Discussion
-
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus in erat ut urna cursus vestibulum. Morbi in dui quis est pulvinar ullamcorper. Vivamus sed dictum magna.
 
 ## Genetics in Etiology and Diagnosis
 
@@ -241,7 +241,13 @@ Genetic testing can retrospectively explain treatment failure. For instance, a p
 
 ## Clinical Challenges and Future Directions
 
-Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Nullam dictum felis eu pede mollis pretium.
+### Challenges
+
+High costs of pharmacogenomic (PGx) testing represent a primary barrier to implementation in antidepressant therapy, with multi-gene panels often exceeding affordable thresholds in resource-limited settings and lacking consistent reimbursement from insurers. Physician education gaps persist, as many clinicians report insufficient training to interpret PGx results or integrate them into prescribing decisions, resulting in low adoption rates despite available guidelines. The complexity of multi-gene interpretation further complicates use, since antidepressant response involves interacting variants in genes like *CYP2D6* and *CYP2C19*, where phenotypes such as ultrarapid (UM) or poor metabolizers (PM) require nuanced assessment amid variable evidence strength. Additional obstacles include workflow disruptions, inconsistent clinical guidelines, and data privacy issues that hinder routine PGx application.​
+
+## Future Directions
+
+Future directions in PGx for antidepressant therapy aim to resolve key clinical challenges, such as interpretation complexity, physician education deficits, and workflow inefficiencies, through technological and analytical advancements. Integration of PGx data into Electronic Health Records (EHRs) enables automated clinical decision support; for instance, the system scans a patient's genotype and alerts physicians if they are a *CYP2D6* UM, recommending a higher starting dose of antidepressants like nortriptyline to avoid subtherapeutic levels, or a PM status prompting dose reduction to prevent toxicity. Polygenic risk scores (PRS) will enhance precision by combining multiple loci to predict treatment response, surpassing single-gene limitations and supporting stratified dosing in depression care. These innovations, alongside expanded guidelines and training, promise broader equitable access.​
 
 # Abbreviations
 
